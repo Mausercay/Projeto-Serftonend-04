@@ -10,6 +10,7 @@ html{
     font: 400 62.5% Inter, sans-serif;
 }
 
+
 p, a{
     font-size: 1.6rem;
 }
@@ -55,9 +56,50 @@ p, a{
 }
 
 .header-nav__list li a:hover{
-    background-color: var(--primary-color);
-    color: #fff;
+    background-color: black;
+    color: var(--primary-color);
     transition: color .3s ease-in-out, background-color .3s ease-in-out;
 }
 
 /* final do header */
+
+/* inicio do hero */
+
+.container-hero{
+    background-image: linear-gradient(#fafafa,var(--primary-color));
+}
+
+
+.hero_banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20rem;
+}
+
+.btn{
+    font-size: 1.8rem;
+    background-color: var(--primary-color);
+    border-radius: 4px;
+    text-decoration: none;
+    color: black;
+    padding: 1.6rem 4.6rem;
+    display: inline-block;
+}
+
+.hero-title{
+    font-size: 4.8rem;
+    margin-bottom: 5rem ;
+
+}
+
+.btn:hover{
+    background-color: black;
+    color: var(--primary-color);
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+
+/* final do hero */
+
+/* inicio do container de cursos */
