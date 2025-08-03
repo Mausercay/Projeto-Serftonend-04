@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+:root{
+    --primary-color: #fed001;
+
+}
+
+html{
+    font: 400 62.5% Inter, sans-serif;
+}
+
+p, a{
+    font-size: 1.6rem;
+}
+
+.divdark{
+    background-color: #2a2a2a;
+}
+
+.container-color{
+    background-color: #f5f5f5;
+}
+
+.container-dark2{
+    background-color: #003464;
+    color: #f5f5f5;
+}
+
+.container{
+    max-width: 127.6rem;
+    margin: auto;
+}
+
+/* inicio do  header */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.header-nav__list{
+    display: flex;
+    gap: .6rem;
+    list-style-type: none;
+}
+
+.header-nav__list li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    border: .1rem solid var(--primary-color);
+    padding: .75em 1.15em;
+}
+
+.header-nav__list li a:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    transition: color .3s ease-in-out, background-color .3s ease-in-out;
+}
+
+/* final do header */
