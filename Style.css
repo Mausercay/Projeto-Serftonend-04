@@ -103,3 +103,13 @@ p, a{
 /* final do hero */
 
 /* inicio do container de cursos */
+
+.Cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Cursos-list{
+    
+}
