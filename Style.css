@@ -191,7 +191,7 @@ h2{
     font-size: 3.2rem;
     text-align: center;
     text-transform: capitalize;
-    margin: 4rem 0;
+    
 }
 
 address{
@@ -200,4 +200,12 @@ address{
     font-size: 1.8rem;
     text-align: right;
     margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.foot{
+    text-align: center;
+    padding: 5rem;
+    font-size: 1.6rem;
+    color: #f5f5f5;
 }
