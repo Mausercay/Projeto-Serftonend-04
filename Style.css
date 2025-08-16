@@ -186,3 +186,18 @@ h2{
     font-size: 1.8rem;
     line-height: 1.5;
 }
+
+.titulo-contatos{
+    font-size: 3.2rem;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 4rem 0;
+}
+
+address{
+    font-style: normal;
+    line-height: 1.5;
+    font-size: 1.8rem;
+    text-align: right;
+    margin-top: 3rem;
+}
