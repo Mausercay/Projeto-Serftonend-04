@@ -15,6 +15,11 @@ p, a{
     font-size: 1.6rem;
 }
 
+h2{
+    font-size: 3.2rem;
+    
+}
+
 .divdark{
     background-color: #2a2a2a;
 }
@@ -169,4 +174,15 @@ p, a{
 .btno{
     margin: 7rem 0;
 
+}
+
+.Escola{
+    display: flex;
+    gap: 6rem;
+    padding-top: 6rem;
+}
+
+.Escola p{
+    font-size: 1.8rem;
+    line-height: 1.5;
 }
